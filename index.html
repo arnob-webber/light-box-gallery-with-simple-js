@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="gallery-container">
+        <div class="gallery">
+            <img src="https://i.pinimg.com/736x/f1/68/87/f1688785517992d17c13644b2eb696c9.jpg" alt="Image 1"
+                class="thumbnail" data-full="https://i.pinimg.com/736x/f1/68/87/f1688785517992d17c13644b2eb696c9.jpg">
+
+            <img src="https://i.pinimg.com/564x/34/aa/a6/34aaa6562764f2c90989ad822e78049b.jpg" alt="Image 2"
+                class="thumbnail" data-full="https://i.pinimg.com/564x/34/aa/a6/34aaa6562764f2c90989ad822e78049b.jpg">
+            <img src="https://i.pinimg.com/564x/35/91/88/35918873796208fb2f48da0413913970.jpg" alt="Image 3"
+                class="thumbnail" data-full="https://i.pinimg.com/564x/35/91/88/35918873796208fb2f48da0413913970.jpg">
+            <!-- add more imgs as your need -->
+        </div>
+    </div>
+
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+        <div class="caption" id="caption"></div>
+
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
